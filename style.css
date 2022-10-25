@@ -1,1 +1,77 @@
+  /* CSS for Javascript program for Convert the given number into a roman numeral */
+ 
+
+    body {
+      margin: 1.5em;
+      
+  }
+
+span {
+  color:red;
+  text-decoration:underline;
+  }
+
+#result {
+  color: darkblue;
+  text-decoration:none;
+  border-left: 5px solid darkgreen;
+  border-right: 5px solid darkgreen;
+  font-size: 120%;
+  margin-left:5px;
+  margin-right:5px;
+  padding:4px 20px 4px;
+  background-color: white;
+ 
+}
+
+table, td, th {
+  border: 3px solid black;
+}
+
+table {
+  width:auto;
+  border-collapse: collapse;
+  
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+th {
+  height: 60px;
+  font-size: 120%;
+  background-color:rgb(250, 210, 100);
+  padding: 0 10px;
+}
+
+td {
+  height: 50px;
+  text-align: center;
+  font-size: 110%;
+  padding-left:5px;
+}
+
+
+tr:nth-child(even) {
+    background-color: #8ce4fa;
+  }
+
+tr:nth-child(odd) {
+      background-color: #fcbef1;
+    }
+
+tr:hover {
+    background-color: #82f3ad;
+  }
+
+  .front {
+    display: inline;
+    border-radius: 12px;
+    font-size: 1.15rem;
+    margin:10px 0 10px 0;
+    padding: 5px 20px 5px 20px;
+    background: rgb(243, 149, 9);
+    
+  }
+
+  
 
